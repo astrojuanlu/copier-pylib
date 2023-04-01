@@ -22,7 +22,7 @@ _As simple as possible. No magic._
 Install `copier`:
 
 ```
-pip install copier
+pipx install copier
 ```
 
 Generate a Python package:
