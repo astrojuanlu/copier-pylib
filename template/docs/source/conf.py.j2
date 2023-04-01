@@ -2,7 +2,7 @@ from importlib.metadata import metadata
 
 # -- Project information
 
-_metadata = metadata("{{ cookiecutter.project_name }}")
+_metadata = metadata("{{ project_name }}")
 
 project = _metadata["Name"]
 author = _metadata["Author-email"].split("<", 1)[0].strip()

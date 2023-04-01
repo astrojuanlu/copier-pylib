@@ -1,6 +1,6 @@
-# cookiecutter-pylib
+# copier-pylib
 
-[Cookiecutter](https://github.com/audreyr/cookiecutter) template for pure Python libraries.
+[Copier](https://github.com/copier-org/copier) template for pure Python libraries.
 
 _As simple as possible. No magic._
 
@@ -19,23 +19,23 @@ _As simple as possible. No magic._
 
 ## Usage
 
-Install `cookiecutter`:
+Install `copier`:
 
 ```
-pip install cookiecutter
+pip install copier
 ```
 
 Generate a Python package:
 
 ```
-cookiecutter gh:astrojuanlu/cookiecutter-pylib
+copier gh:astrojuanlu/copier-pylib
 ```
 
 ## License
 
 [MIT License](LICENSE)
 
-[cookiecutter]: https://github.com/audreyr/cookiecutter/
+[copier]: https://github.com/copier-org/copier/
 [mypy]: http://mypy.readthedocs.io/
 [flit]: https://flit.readthedocs.io/
 [pytest]: https://docs.pytest.org/
