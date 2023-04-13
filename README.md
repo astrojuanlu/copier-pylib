@@ -28,7 +28,7 @@ pipx install copier
 Generate a Python package:
 
 ```
-copier gh:astrojuanlu/copier-pylib
+copier gh:astrojuanlu/copier-pylib path/to/destination
 ```
 
 ## License
