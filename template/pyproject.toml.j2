@@ -52,6 +52,17 @@ profile = "black"
 [tool.pydocstyle]
 convention = "numpy"
 
+[tool.ruff]
+show-fixes = true
+select = [
+    "F",  # Pyflakes
+    "E",  # Pycodestyle
+    "W",  # Pycodestyle
+    "UP",  # pyupgrade
+    "I",  # isort
+    "PL",  # Pylint
+]
+
 [tool.mypy]
 python_version = "3.7"
 warn_redundant_casts = true
