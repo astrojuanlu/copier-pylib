@@ -14,7 +14,7 @@ _As simple as possible. No magic._
 - [Read the Docs] for continuous documentation.
 - [mypy] for type checks.
 - [black] for automatic Python code formatting.
-- [flake8], [isort] and [pydocstyle] for style checks.
+- [ruff] for style checks.
 - [pre-commit] for optional automation of style checks.
 
 ## Usage
@@ -42,9 +42,7 @@ copier copy gh:astrojuanlu/copier-pylib path/to/destination
 [Sphinx]: http://www.sphinx-doc.org/
 [tox]: https://tox.readthedocs.io/
 [black]: https://black.readthedocs.io/
-[flake8]: https://flake8.pycqa.org/
-[isort]: https://pycqa.github.io/isort/
-[pydocstyle]: http://www.pydocstyle.org/
+[ruff]: https://beta.ruff.rs/docs/
 [pre-commit]: https://github.com/pre-commit/pre-commit
 [GitHub Actions]: https://github.com/features/actions
 [Read the Docs]: https://readthedocs.org
