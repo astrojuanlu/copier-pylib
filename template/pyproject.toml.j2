@@ -46,22 +46,20 @@ doc = [
     "sphinx-copybutton",
 ]
 
-[tool.isort]
-profile = "black"
-
-[tool.pydocstyle]
-convention = "numpy"
-
 [tool.ruff]
 show-fixes = true
 select = [
     "F",  # Pyflakes
     "E",  # Pycodestyle
     "W",  # Pycodestyle
+    "D",  # Pydocstyle
     "UP",  # pyupgrade
     "I",  # isort
     "PL",  # Pylint
 ]
+
+[tool.ruff.pydocstyle]
+convention = "numpy"
 
 [tool.mypy]
 python_version = "3.7"
