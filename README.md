@@ -6,7 +6,7 @@ _As simple as possible. No magic._
 
 ## Features
 
-- [flit] for simple packaging.
+- [PDM] for packaging.
 - [pytest] for testing.
 - [tox] for automation of test runners and other stuff.
 - [Sphinx] for documentation
@@ -37,7 +37,7 @@ copier copy gh:astrojuanlu/copier-pylib path/to/destination
 
 [copier]: https://github.com/copier-org/copier/
 [mypy]: http://mypy.readthedocs.io/
-[flit]: https://flit.readthedocs.io/
+[PDM]: https://pdm-project.org/
 [pytest]: https://docs.pytest.org/
 [Sphinx]: http://www.sphinx-doc.org/
 [tox]: https://tox.readthedocs.io/
