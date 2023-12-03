@@ -13,8 +13,7 @@ _As simple as possible. No magic._
 - [GitHub Actions] for continuous integration and publishing to PyPI.
 - [Read the Docs] for continuous documentation.
 - [mypy] for type checks.
-- [black] for automatic Python code formatting.
-- [ruff] for style checks.
+- [ruff] for style checks and automatic Python code formatting.
 - [pre-commit] for optional automation of style checks.
 
 ## Usage
