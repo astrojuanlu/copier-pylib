@@ -6,15 +6,14 @@ _As simple as possible. No magic._
 
 ## Features
 
-- [flit] for simple packaging.
+- [PDM] for packaging.
 - [pytest] for testing.
 - [tox] for automation of test runners and other stuff.
 - [Sphinx] for documentation
 - [GitHub Actions] for continuous integration and publishing to PyPI.
 - [Read the Docs] for continuous documentation.
 - [mypy] for type checks.
-- [black] for automatic Python code formatting.
-- [ruff] for style checks.
+- [ruff] for style checks and automatic Python code formatting.
 - [pre-commit] for optional automation of style checks.
 
 ## Usage
@@ -37,7 +36,7 @@ copier copy gh:astrojuanlu/copier-pylib path/to/destination
 
 [copier]: https://github.com/copier-org/copier/
 [mypy]: http://mypy.readthedocs.io/
-[flit]: https://flit.readthedocs.io/
+[PDM]: https://pdm-project.org/
 [pytest]: https://docs.pytest.org/
 [Sphinx]: http://www.sphinx-doc.org/
 [tox]: https://tox.readthedocs.io/

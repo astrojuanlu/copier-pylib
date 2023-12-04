@@ -1,7 +1,7 @@
 # {{ project_name }}
 
 [![Documentation Status](https://readthedocs.org/projects/{{ project_name }}/badge/?version=latest)](https://{{ project_name }}.readthedocs.io/en/latest/?badge=latest)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Code style: ruff-format](https://img.shields.io/badge/code%20style-ruff_format-6340ac.svg)](https://github.com/astral-sh/ruff)
 [![PyPI](https://img.shields.io/pypi/v/{{ project_name }})](https://pypi.org/project/{{ project_name }})
 
 {{ short_description}}
@@ -20,7 +20,7 @@ To run style checks:
 
 ```
 (.venv) $ pip install pre-commit
-(.venv) $ pre-commit -a
+(.venv) $ pre-commit run -a
 ```
 
 ## Overview
