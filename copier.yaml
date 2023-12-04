@@ -15,3 +15,4 @@ author_email:
 
 _subdirectory: template
 _templates_suffix: .j2
+_answers_file: .copier-answers.yml.j2
