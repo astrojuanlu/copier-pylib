@@ -7,17 +7,9 @@ repos:
   - id: check-added-large-files
   - id: check-merge-conflict
 
-- repo: https://github.com/PyCQA/isort
-  rev: 5.10.1
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: v0.1.6
   hooks:
-  - id: isort
-
-- repo: https://github.com/psf/black
-  rev: 22.8.0
-  hooks:
-  - id: black
-
-- repo: https://github.com/PyCQA/flake8
-  rev: 5.0.4
-  hooks:
-  - id: flake8
+    - id: ruff
+      args: [ --fix, --exit-non-zero-on-fix ]
+    - id: ruff-format
