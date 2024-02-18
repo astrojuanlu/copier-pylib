@@ -40,8 +40,7 @@ copier copy gh:astrojuanlu/copier-pylib path/to/destination
 [pytest]: https://docs.pytest.org/
 [Sphinx]: http://www.sphinx-doc.org/
 [tox]: https://tox.readthedocs.io/
-[black]: https://black.readthedocs.io/
-[ruff]: https://beta.ruff.rs/docs/
-[pre-commit]: https://github.com/pre-commit/pre-commit
-[GitHub Actions]: https://github.com/features/actions
-[Read the Docs]: https://readthedocs.org
+[ruff]: https://docs.astral.sh/ruff/
+[pre-commit]: https://github.com/pre-commit/pre-commit/
+[GitHub Actions]: https://github.com/features/actions/
+[Read the Docs]: https://readthedocs.org/
