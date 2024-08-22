@@ -6,7 +6,7 @@ _As simple as possible. No magic._
 
 ## Features
 
-- [PDM] for packaging.
+- [uv] for project management.
 - [pytest] for testing.
 - [tox] for automation of test runners and other stuff.
 - [Sphinx] for documentation
@@ -15,13 +15,14 @@ _As simple as possible. No magic._
 - [mypy] for type checks.
 - [ruff] for style checks and automatic Python code formatting.
 - [pre-commit] for optional automation of style checks.
+- [PDM] as build backend.
 
 ## Usage
 
 Install `copier`:
 
 ```
-pipx install copier
+uv tool install copier
 ```
 
 Generate a Python package:
@@ -34,6 +35,7 @@ copier copy gh:astrojuanlu/copier-pylib path/to/destination
 
 [MIT License](LICENSE)
 
+[uv]: https://github.com/astral-sh/uv
 [copier]: https://github.com/copier-org/copier/
 [mypy]: http://mypy.readthedocs.io/
 [PDM]: https://pdm-project.org/

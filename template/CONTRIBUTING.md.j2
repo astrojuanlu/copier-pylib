@@ -11,7 +11,7 @@ make sure that you **read our code of conduct** (`CODE_OF_CONDUCT.md`).
 2. Set up and activate a Python development environment
    (advice: use [venv](https://docs.python.org/3/library/venv.html),
    [virtualenv](https://virtualenv.pypa.io/), or [miniconda](https://docs.conda.io/en/latest/miniconda.html))
-3. Install tox: `python -m pip install tox`
+3. Install tox: `uv tool install tox`
 4. Make sure the tests run: `tox -e py38`
    (change the version number according to the Python you are using)
 5. Start a new branch: `git switch -c new-branch main`
