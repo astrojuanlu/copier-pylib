@@ -6,7 +6,7 @@ _As simple as possible. No magic._
 
 ## Features
 
-- [uv] for project management.
+- [uv] for project management and build backend.
 - [pytest] for testing.
 - [tox] for automation of test runners and other stuff.
 - [Sphinx] for documentation
@@ -15,7 +15,6 @@ _As simple as possible. No magic._
 - [mypy] for type checks.
 - [ruff] for style checks and automatic Python code formatting.
 - [pre-commit] for optional automation of style checks.
-- [PDM] as build backend.
 
 ## Usage
 
