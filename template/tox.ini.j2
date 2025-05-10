@@ -27,7 +27,7 @@ setenv =
     coverage: PYTEST_EXTRA_ARGS = --cov
 passenv =
     *
-extras =
+dependency_groups =
     test
 commands =
     mypy src tests
@@ -49,7 +49,7 @@ description = build HTML docs
 setenv =
     READTHEDOCS_PROJECT = {{ package_name }}
     READTHEDOCS_VERSION = latest
-extras =
+dependency_groups =
     doc
 commands =
     sphinx-build -d "{toxworkdir}/docs_doctree" docs/source "{toxworkdir}/docs_out" --color -vW -bhtml
