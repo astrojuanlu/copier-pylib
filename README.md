@@ -37,7 +37,6 @@ copier copy gh:astrojuanlu/copier-pylib path/to/destination
 [uv]: https://github.com/astral-sh/uv
 [copier]: https://github.com/copier-org/copier/
 [mypy]: http://mypy.readthedocs.io/
-[PDM]: https://pdm-project.org/
 [pytest]: https://docs.pytest.org/
 [Sphinx]: http://www.sphinx-doc.org/
 [tox]: https://tox.readthedocs.io/
