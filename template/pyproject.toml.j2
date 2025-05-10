@@ -9,6 +9,7 @@ module-name = "{{ package_name }}"
 name = "{{ project_name }}"
 readme = "README.md"
 requires-python = ">=3.9"
+version = 0.1.dev0
 license = {file = "LICENSE"}
 description = "{{ short_description }}"
 dependencies = [
@@ -30,7 +31,6 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
 ]
-dynamic = ["version"]
 
 [project.urls]
 source = "https://github.com/{{ github_org }}/{{ project_name }}"
