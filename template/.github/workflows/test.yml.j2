@@ -12,7 +12,7 @@ jobs:
       - name: Install the latest version of uv and set the python version
         uses: astral-sh/setup-uv@v6
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: {% raw %}${{ matrix.python-version }}{% endraw %}
           activate-environment: true
       - name: Install dependencies
         run: |
