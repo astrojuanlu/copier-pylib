@@ -64,6 +64,10 @@ select = [
     "I",  # isort
     "PL",  # Pylint
 ]
+ignore = [
+    "D203",  # incorrect-blank-line-before-class (prefer D211: no-blank-line-before-class)
+    "D213",  # multi-line-summary-second-line (prefer D212: multi-line-summary-first-line)
+]
 
 [tool.ruff.lint.per-file-ignores]
 "tests/**/*" = ["D", "PLR2004"]
