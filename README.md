@@ -1,5 +1,7 @@
 # copier-pylib
 
+⚠️ Development continues in https://tangled.org/juanlu.space/copier-pylib
+
 [Copier](https://github.com/copier-org/copier) template for pure Python libraries.
 
 _As simple as possible. No magic._
